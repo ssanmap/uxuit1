@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio SSanmap</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Rozha+One&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -12,25 +13,33 @@
   <body>
     <!-- header cabezera -->
     <header>
-      <h1 id="logo-t">SSANMAP</h1>
-      <nav>
-        <ul>
-          <li><a id="home" href="#">Home</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="contenedor">
+        <h1 id="logo-t">SSANMAP</h1>
+        <nav class="desktop">
+          <ul>
+            <li><a id="home" href="#">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <nav class="responsive">
+          <img src="images/menu-mobile.png" alt="Menu" />
+        </nav>
+
+      </div>
+     
     </header>
 
     <!-- titulo -->
     <div class="contenedor-titulo">
-      <img src="images/news4.jpg" alt="titulo"  id="img-title"/>
+     
       <h2 id="sub">Hello!. I’m Sebastian</h2>
-      <div class="contact">
+      <span class="contact">
         <h3>Contact Me</h3>
-      </div>
+      </span>
     </div>
 
     <!-- sub pagina -->
